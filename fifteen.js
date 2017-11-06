@@ -86,7 +86,6 @@ function isMovable(LPos,TPos){// This function checks if a tile with the request
 }
 
 
-
 function shuffle(){ // This function when called, is used to shuffle the board pieces , but stays in a solvable state
 //choose nmumber from list of isMovable tiles and move them like the onlcik function a random amounf of times, in a reasonable amount of time.
     var puzzlearea=document.getElementById("puzzlearea");
@@ -110,25 +109,7 @@ function shuffle(){ // This function when called, is used to shuffle the board p
         Movelist = [];
     }
 }
-    
-    
 
-    // for (a=0; a<c.length; a++){
-    //     if (isMovable(c[a].style.left,c[a].style.top)){
-    //         Movelist.push([c[a]]);
-    //         // console.log(Movelist);
-    //     }else{
-
-    //     }
-    
-    // for (var i=0;i<Movelist.length;i++){
-    //     var val= Math.floor(Math.random() * Movelist.length);
-    //     var Location=switchTiles(Movelist[val][0].style.left, Movelist[val][0].style.top);
-    //     Movelist[val][0].style.left = Location[0];
-    //     Movelist[val][0].style.top = Location[1];
-    //     console.log(val);
-    // }
-    // }
     
     
 
