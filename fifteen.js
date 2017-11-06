@@ -1,4 +1,7 @@
+
 "use strict";
+//Extra feature implemented, Transitions/Animation
+// transition feature should be graded
 
 var TOP=0, LEFT=0;
 
@@ -10,6 +13,7 @@ function setTilePositions(){//This sets up the board puzzlepieces and adds a onc
     //var gameEnd=setTilePositions();//attempt to do game win extra feature
     var shufflebtt=document.getElementById("shufflebutton");
     shufflebtt.onclick=function(){shuffle();};
+    
 	
 	var puzzlearea=document.getElementById("puzzlearea");
  	var c=puzzlearea.children;
@@ -109,10 +113,6 @@ function shuffle(){ // This function when called, is used to shuffle the board p
         Movelist = [];
     }
 }
-
-    
-    
-
 
 
 
